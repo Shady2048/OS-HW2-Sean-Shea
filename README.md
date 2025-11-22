@@ -1,2 +1,27 @@
 # OS-HW2-Sean-Shea
 Assignment 2 for Operating Systems
+
+# Files
+bankers_alg.cpp: a program that takes an input file of a system snapshot and uses the Banker's Algorithm to determine if the system is in a safe state, and outputs the Safety Sequence if it is.
+
+resources.txt: a text file formatted correctly to represent a system snapshot to be used in the bankers_alg program.
+
+# Usage Instructions
+To run the program, type the following command to compile it:
+
+g++ bankers_alg.cpp -o bankers_alg
+
+Then, to run the program, type the following command:
+
+./bankers_alg
+
+The program will start and ask for an input file. To use the provided file with the program, type:
+
+resources.txt
+
+# Input File Format
+The input file can be changed as you like, as long as you keep the format the same.
+
+The file must contain 3 tables, each must have a heading of "ALLOCATED", "MAX", and "AVAILABLE".
+
+Then, for each process, 
