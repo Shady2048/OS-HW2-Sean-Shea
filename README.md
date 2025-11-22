@@ -19,10 +19,17 @@ The program will start and ask for an input file. To use the provided file with 
 
 resources.txt
 
+Alternatively, you may type a file path of a different .txt file of your choice that is properly formatted.
+
 # Input File Format
 The input file can be changed if desired, as long as you keep the format the same.
 
 The file must contain three tables, each with headings of "ALLOCATED", "MAX", and "AVAILABLE".
 
 For the ALLOCATED table, each new line in the file represents a different process being added. The lines must contain the resource allocations for each process, separated by commas (the last resource should not have a comma). After the last process line, the string 'END' should be typed.
-The 
+
+The MAX Table is formatted the same as the ALLOCATED table.
+
+The AVAILABLE table is similar, but only needs one line, so it is not necessary to add the "END" string to denote the end of the table.
+
+Ensure that there are no empty lines within the tables, and that the ALLOCATED and MAX tables have the same dimensions, and that the AVAILABLE table has the same number of resources as the other two tables.
