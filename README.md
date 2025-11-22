@@ -2,7 +2,7 @@
 Assignment 2 for Operating Systems
 
 # Files
-bankers_alg.cpp: a program that takes an input file of a system snapshot and uses the Banker's Algorithm to determine if the system is in a safe state, and outputs the Safety Sequence if it is.
+bankers_alg.cpp: a program that takes an input file of a system snapshot and uses Banker's Algorithm to determine if the system is in a safe state, and outputs the Safety Sequence if it is.
 
 resources.txt: a text file formatted correctly to represent a system snapshot to be used in the bankers_alg program.
 
