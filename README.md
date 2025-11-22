@@ -26,7 +26,7 @@ The input file can be changed if desired, as long as you keep the format the sam
 
 The file must contain three tables, each with headings of "ALLOCATED", "MAX", and "AVAILABLE".
 
-For the ALLOCATED table, each new line in the file represents a different process being added. The lines must contain the resource allocations for each process, separated by commas (the last resource should not have a comma). After the last process line, the string 'END' should be typed.
+For the ALLOCATED table, each new line in the file represents a different process being added. The lines must contain the resource allocations for each process, separated by commas (the last resource should not have a comma). After the last process line, the string "END" should be typed.
 
 The MAX Table is formatted the same as the ALLOCATED table.
 
