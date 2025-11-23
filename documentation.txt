@@ -1,1 +1,12 @@
+Documentation
+
+This program takes an input .txt file representing a system state, and uses Banker's Algorithm to determine if the system is in a safe state. If it is, it outputs the Safe Sequence.
+
+The program first inputs all of the numbers in the input file into three 2D vectors (named allocated, max, and available) to be used by the program.
+
+Then, it uses the Safety Algorithm. First, it creates a Work table from the available table and makes a Finished vector to track which processes have finished. Then, it finds the next unfinished process where the Need of the process can be satisfied by the Work vector. It pretends to allocate resources to the process, and marks it as finished. It repeats this for each process until all processes are finished.
+
+If all the processes are marked as finished, the system is safe. If the program iterates over each unfinished process once and cannot mark them as finished, the system is unsafe.
+
+Then, the process outputs the Safe Sequence.
 
