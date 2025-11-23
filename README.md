@@ -33,3 +33,6 @@ The MAX Table is formatted the same as the ALLOCATED table.
 The AVAILABLE table is similar, but only needs one line, so it is not necessary to add the "END" string to denote the end of the table.
 
 Ensure that there are no empty lines within the tables, and that the ALLOCATED and MAX tables have the same dimensions, and that the AVAILABLE table has the same number of resources as the other two tables.
+
+# Notes
+In the code, if desired, the boolean 'DEBUG' can be changed to true to see additional information about how the program processes the tables.
